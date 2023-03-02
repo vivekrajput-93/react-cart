@@ -51,3 +51,7 @@
     color: white;
     cursor: pointer;
   }
+
+  body {
+    margin : 0;
+  }
