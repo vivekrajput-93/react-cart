@@ -6,11 +6,12 @@ import product5 from "./assets/5.png"
 import product6 from "./assets/6.webp"
 import product7 from "./assets/7.webp"
 import product8 from "./assets/8.webp"
+import product9 from "./assets/1.png"
 
 export const PRODUCTS = [
     {
         id : 1,
-        productName : "Iphone",
+        productName : "Iphone 15 pro",
         price : 999.0,
         productImage : product1,
     },
@@ -30,7 +31,7 @@ export const PRODUCTS = [
     },
 
     {
-        product : 4,
+        id : 4,
         productName: "Denim Jacket",
         price : 566.0,
         productImage : product4,
@@ -56,10 +57,19 @@ export const PRODUCTS = [
         price : 384.0,
         productImage : product7,
     },
+
     {
         id : 8,
+        productName: "Iphone 14 pro",
+        price : 945.0,
+        productImage: product9,
+    },
+
+    {
+        id : 9,
         productName: "Gucci Cap",
         price : 453.0,
         productImage : product8,
     },
+
 ]
